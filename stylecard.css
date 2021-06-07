@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap);
+
+body, html {
+    box-sizing: border-box;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main {
+    width: 944.3px;
+    height: 500px;
+    background: white;
+    border: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-sec {
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+
+.image-bg {
+    position: relative;
+    z-index: 1;
+    transform: translate(-58%, -30%);
+}
+
+.image-box {
+    position: fixed;
+    z-index: 4;
+    transform: translate(-65%, -410%);
+}
+
+.image-woman {
+    position: relative;
+    z-index: 2;
+    transform: translate(-16%, -248%);
+}
+
+.faq-container {
+    font-family: "Kumbh Sans";
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.questions-sec {
+    color: hsl(237, 12%, 33%);
+    width: 80%;
+    height: 85%;
+}
+
+div.questions-box {
+    border-bottom: 2px solid hsl(240, 5%, 91%);
+    padding: 5px 0px;
+}
+
+p.questions:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+.questions {
+    user-select: none;
+}
+.answers {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.questions-sec span {
+    float: right;
+}
