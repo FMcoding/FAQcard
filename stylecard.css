@@ -100,7 +100,7 @@ p.questions:hover {
     display: inline-block;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     main {
         background: blue;
     }
