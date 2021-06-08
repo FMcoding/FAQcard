@@ -83,11 +83,25 @@ p.questions:hover {
 .questions {
     user-select: none;
 }
+
 .answers {
     font-size: 12px;
     line-height: 1.5;
+    display: none;
 }
 
 .questions-sec span {
     float: right;
+}
+
+.is-open {
+    font-size: 12px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        background: blue;
+    }
 }
