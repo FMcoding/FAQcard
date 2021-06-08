@@ -111,10 +111,9 @@ p.questions:hover {
         border: 2px solid red;
         width: 100%;
     }
-
     .image-sec {
         position: fixed;
-        transform: translateY(-50px);
-        overflow: none;
+        transform: translateY(-250px);
+        width: 90%;
     }
 }
