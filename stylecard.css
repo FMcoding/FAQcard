@@ -123,4 +123,8 @@ p.questions:hover {
         overflow: visible;
         transform: translate(100px, -350px);
     }
+    
+    h1 {
+        text-align: center;
+    }
 }
