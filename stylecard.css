@@ -100,20 +100,26 @@ p.questions:hover {
     display: inline-block;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1300px) { /*500 but 1300 for testing purposes*/
     main {
         width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: none;
     }
     .faq-container {
         border: 2px solid red;
         width: 100%;
     }
+
     .image-sec {
+        display: block;
         position: fixed;
+        width: 40%;
+        height: 80%;
         transform: translateY(-250px);
-        width: 90%;
+        overflow: none;
+        border: 2px solid red;
     }
 }
