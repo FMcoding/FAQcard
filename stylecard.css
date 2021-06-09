@@ -117,7 +117,7 @@ p.questions:hover {
     }
     .image-sec {
         display: block;
-        position: fixed;
+        position: absolute;
         width: 40%;
         height: 80%;        
         overflow: visible;
