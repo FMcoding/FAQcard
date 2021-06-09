@@ -121,7 +121,7 @@ p.questions:hover {
         width: 40%;
         height: 80%;        
         overflow: visible;
-        transform: translate(100px, -350px);
+        transform: translate(40px, -280px) scale(0.5, 0.5);
     }
     
     h1 {
