@@ -100,7 +100,7 @@ p.questions:hover {
     display: inline-block;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 500px) {
     main {
         width: 90%;
         display: flex;
