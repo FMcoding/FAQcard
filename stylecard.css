@@ -100,14 +100,14 @@ p.questions:hover {
     display: inline-block;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
     main {
         width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        overflow: hidden;
-        transform: translateY(100px);
+        overflow: visible;
+        transform: translateY(50px);
     }
 
     .faq-container {
@@ -116,7 +116,7 @@ p.questions:hover {
 
     .image-bg {
         transform: scale(0.7, 0.7) translate(-470px, -500px);
-        overflow: hidden;
+        overflow: visible;
     }
 
     .image-sec {
@@ -125,7 +125,7 @@ p.questions:hover {
         width: 40%;
         height: 80%;        
         overflow: visible;
-        transform: translateY(-25px, -350px) scale(0.5, 0.5);
+        transform: translate(-25px, -270px) scale(0.5, 0.5);
         margin: auto;
     }
 
